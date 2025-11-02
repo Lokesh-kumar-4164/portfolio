@@ -1,0 +1,15 @@
+
+/* Aurora palette vars */
+
+@import "tailwindcss";
+:root{
+  --aurora-1:#7C3AED;
+  --aurora-2:#06B6D4;
+}
+
+html,body,#root{height:100%;}
+
+@media (prefers-reduced-motion: reduce){
+  *{ animation:none !important; transition:none !important; }
+}
+.cursor-dot{ width:10px; height:10px; border-radius:9999px; position:fixed; pointer-events:none; z-index:9999; transform:translate(-50%,-50%); transition:transform 100ms linear; }
