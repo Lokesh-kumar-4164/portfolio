@@ -6,8 +6,8 @@ export const education = [
     period: "2023 – 2027",
     details: [
       " Pursuing B.Tech in CSBS at VIT-AP",
-" Active member in clubs and campus events",
-" Ranked 8th in department (2024–2025)"
+      " Active member in clubs and campus events",
+      " Ranked 8th in department (2024–2025)",
     ],
   },
   {
@@ -16,8 +16,8 @@ export const education = [
     institution: "Sri chaithanya junior college",
     period: "2021 – 2027",
     details: [
-        "Scored 97.6% in Intermediate",
-"Focused on Maths, Physics, and Chemistry"
+      "Scored 97.6% in Intermediate",
+      "Focused on Maths, Physics, and Chemistry",
     ],
   },
 ];

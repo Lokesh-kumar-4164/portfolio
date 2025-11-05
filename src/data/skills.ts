@@ -1,5 +1,9 @@
 export const skills = [
   {
+    title: "Programming Languages",
+    items: ["C/C++", "JavaScript", "Python", "Java"],
+  },
+  {
     title: "Frontend",
     items: ["React", "TypeScript", "Vite", "TailwindCSS"],
   },
