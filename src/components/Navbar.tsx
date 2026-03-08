@@ -26,7 +26,7 @@ function MobileMenuButton({ isOpen, onClick }: { isOpen: boolean; onClick: () =>
       <motion.span
         className={lineProps}
         // This line just fades out
-        animate={{ opacity: isOpen ? 0 : 1 }} 
+        animate={{ opacity: isOpen ? 0 : 1 }}
         transition={{ duration: 0.1 }}
       />
       <motion.span
@@ -39,19 +39,19 @@ function MobileMenuButton({ isOpen, onClick }: { isOpen: boolean; onClick: () =>
 }
 
 // --- Main Navbar Component ---
-export default function Navbar({setContactOpen}) {
+export default function Navbar({ setContactOpen }) {
   const [isOpen, setIsOpen] = useState(false);
 
   // Animation for the whole navbar sliding in
   const navbarVariants = {
     hidden: { y: -100, opacity: 0 },
-    visible: { 
-      y: 0, 
-      opacity: 1, 
+    visible: {
+      y: 0,
+      opacity: 1,
       transition: { duration: 0.4, ease: 'easeOut' }
     },
   };
-  
+
   // Stagger variants for mobile menu links
   const mobileNavVariants = {
     hidden: { opacity: 0 },
@@ -62,7 +62,7 @@ export default function Navbar({setContactOpen}) {
       },
     },
   };
-  
+
   const mobileLinkVariants = {
     hidden: { opacity: 0, x: -20 },
     visible: { opacity: 1, x: 0 },
@@ -79,7 +79,7 @@ export default function Navbar({setContactOpen}) {
       <div className="container mx-auto px-6 lg:px-20 py-4 flex items-center justify-between">
         {/* Logo (now a link!) */}
         <a href="#" className="font-bold text-lg text-slate-900 dark:text-white">
-          Giddaluru Lokesh kumar 
+          Giddaluru Lokesh kumar
         </a>
 
         {/* --- Desktop Nav (hidden on mobile) --- */}
@@ -90,10 +90,10 @@ export default function Navbar({setContactOpen}) {
           >
             Projects
           </a>
-          
+
           {/* CTA Button! */}
           <a
-            className="text-sm font-medium px-4 py-2 rounded-lg bg-slate-800 text-white hover:bg-slate-700 dark:bg-slate-200 dark:text-slate-900 dark:hover:bg-slate-100 transition-colors"
+            className="text-sm font-medium px-4 cursor-pointer py-2 rounded-lg bg-slate-800 text-white hover:bg-slate-700 dark:bg-slate-200 dark:text-slate-900 dark:hover:bg-slate-100 transition-colors"
             onClick={() => setContactOpen(true)}
           >
             Get in Touch
