@@ -1,0 +1,4 @@
+src/components/Hero.tsx(69,31): error TS7031: Binding element 'setContactOpen' implicitly has an 'any' type.
+src/components/Hero.tsx(162,47): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+src/components/Navbar.tsx(42,34): error TS7031: Binding element 'setContactOpen' implicitly has an 'any' type.
+src/components/Navbar.tsx(125,83): error TS7006: Parameter 'prev' implicitly has an 'any' type.

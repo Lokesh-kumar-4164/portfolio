@@ -39,7 +39,11 @@ function MobileMenuButton({ isOpen, onClick }: { isOpen: boolean; onClick: () =>
 }
 
 // --- Main Navbar Component ---
-export default function Navbar({ setContactOpen }) {
+interface NavbarProps {
+  setContactOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export default function Navbar({ setContactOpen }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   // Animation for the whole navbar sliding in

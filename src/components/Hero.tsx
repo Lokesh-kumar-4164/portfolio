@@ -20,13 +20,13 @@ const fadeInUp = {
 
 const fadeInRight = {
   hidden: { opacity: 0, x: 50 },
-  show: { 
-    opacity: 1, 
+  show: {
+    opacity: 1,
     x: 0,
-    transition: { 
-      ease: 'easeOut', 
+    transition: {
+      ease: 'easeOut',
       duration: 0.5,
-      delay: 0.3 
+      delay: 0.3
     }
   },
 };
@@ -66,10 +66,14 @@ const blobVariant = {
 };
 
 
-export default function Hero({setContactOpen}) {
+interface HeroProps {
+  setContactOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export default function Hero({ setContactOpen }: HeroProps) {
   return (
     <section className="relative overflow-hidden py-20 min-h-screen flex items-center">
-      
+
       {/* --- Background Blobs (Simplified!) --- */}
       <div className="absolute inset-0 pointer-events-none -z-10 opacity-70">
         <svg
@@ -88,7 +92,7 @@ export default function Hero({setContactOpen}) {
               <feGaussianBlur stdDeviation="25" />
             </filter>
           </defs>
-          
+
           {/* Blob 1 (Large, more centered) */}
           <motion.path
             d="M300,300 C320,180 480,180 520,300 C560,420 340,420 300,300 Z"
@@ -98,7 +102,7 @@ export default function Hero({setContactOpen}) {
             animate="animate"
             variants={blobVariant}
           />
-          
+
           {/* Blob 2 (Smaller, in a corner) */}
           <motion.path
             d="M100,100 C120,50 180,50 220,100 C260,150 140,150 100,100 Z"
@@ -108,7 +112,7 @@ export default function Hero({setContactOpen}) {
             animate="animate"
             variants={blobVariant}
             // Start it at a different scale/opacity
-            style={{ 
+            style={{
               scale: 0.8,
               opacity: 0.8,
               transformOrigin: '150px 100px' // Set transform origin for rotation
@@ -130,13 +134,13 @@ export default function Hero({setContactOpen}) {
               variants={fadeInUp}
               className="text-3xl md:text-5xl font-extrabold leading-tight text-slate-900 dark:text-white"
             >
-             
+
               Crafting{' '}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#8B5CF6] to-[#06B6D4]">
                 impactful digital experiences with code, creativity, and purpose.
               </span>
             </motion.h1>
-            
+
             <motion.p
               variants={fadeInUp}
               className="mt-6 max-w-xl text-lg text-slate-600 dark:text-slate-300"
@@ -157,7 +161,7 @@ export default function Hero({setContactOpen}) {
               >
                 See projects
               </motion.button>
-              
+
               <motion.a
                 onClick={() => setContactOpen(prev => !prev)}
                 whileHover={{ scale: 1.05, y: -2 }}
@@ -195,7 +199,7 @@ export default function Hero({setContactOpen}) {
                 </div>
               </div>
 
-              <motion.div 
+              <motion.div
                 className="mt-4"
                 variants={staggerContainer}
                 initial="hidden"
