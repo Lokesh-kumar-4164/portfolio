@@ -1,0 +1,410 @@
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mD:/projects/portfolio-AI[39m
+
+ [33m❯[39m tests/App.test.tsx [2m ([22m[2m1 test[22m [2m|[22m [31m1 failed[39m[2m)[22m[90m 169[2mms[22m[39m
+[31m   [33m❯[31m tests/App.test.tsx[2m > [22mrenders hero heading[39m
+[31m     → [39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[1m[7m Failed Tests 1 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m tests/App.test.tsx[2m > [22mrenders hero heading
+{
+  stack: 'AggregateError: \n' +
+    '    at aggregateErrors (D:\\projects\\portfolio-AI\\node_modules\\react\\cjs\\react.development.js:551:11)\n' +
+    '    at process.env.NODE_ENV.exports.act (D:\\projects\\portfolio-AI\\node_modules\\react\\cjs\\react.development.js:897:24)\n' +
+    '    at D:\\projects\\portfolio-AI\\node_modules\\@testing-library\\react\\dist\\act-compat.js:47:25\n' +
+    '    at renderRoot (D:\\projects\\portfolio-AI\\node_modules\\@testing-library\\react\\dist\\pure.js:190:26)\n' +
+    '    at Proxy.render (D:\\projects\\portfolio-AI\\node_modules\\@testing-library\\react\\dist\\pure.js:292:10)\n' +
+    '    at D:\\projects\\portfolio-AI\\tests\\App.test.tsx:5:3\n' +
+    '    at file:///D:/projects/portfolio-AI/node_modules/@vitest/runner/dist/index.js:135:14\n' +
+    '    at file:///D:/projects/portfolio-AI/node_modules/@vitest/runner/dist/index.js:60:26\n' +
+    '    at runTest (file:///D:/projects/portfolio-AI/node_modules/@vitest/runner/dist/index.js:781:17)\n' +
+    '    at runSuite (file:///D:/projects/portfolio-AI/node_modules/@vitest/runner/dist/index.js:909:15)',
+  errors: [
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    },
+    {
+      stack: 'ReferenceError: IntersectionObserver is not defined\n' +
+        '    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n' +
+        '    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n' +
+        '    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n' +
+        '    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n' +
+        '    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n' +
+        '    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n' +
+        '    at Object.react_stack_bottom_frame (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:25989:20)\n' +
+        '    at runWithFiberInDEV (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:874:13)\n' +
+        '    at commitHookEffectListMount (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13249:29)\n' +
+        '    at commitHookLayoutEffects (D:\\projects\\portfolio-AI\\node_modules\\react-dom\\cjs\\react-dom-client.development.js:13213:11)',
+      message: 'IntersectionObserver is not defined',
+      constructor: 'Function<ReferenceError>',
+      name: 'ReferenceError',
+      toString: 'Function<toString>'
+    }
+  ],
+  stackStr: 'AggregateError: \n' +
+    '    at aggregateErrors (D:\\projects\\portfolio-AI\\node_modules\\react\\cjs\\react.development.js:551:11)\n' +
+    '    at process.env.NODE_ENV.exports.act (D:\\projects\\portfolio-AI\\node_modules\\react\\cjs\\react.development.js:897:24)\n' +
+    '    at D:\\projects\\portfolio-AI\\node_modules\\@testing-library\\react\\dist\\act-compat.js:47:25\n' +
+    '    at renderRoot (D:\\projects\\portfolio-AI\\node_modules\\@testing-library\\react\\dist\\pure.js:190:26)\n' +
+    '    at Proxy.render (D:\\projects\\portfolio-AI\\node_modules\\@testing-library\\react\\dist\\pure.js:292:10)\n' +
+    '    at D:\\projects\\portfolio-AI\\tests\\App.test.tsx:5:3\n' +
+    '    at file:///D:/projects/portfolio-AI/node_modules/@vitest/runner/dist/index.js:135:14\n' +
+    '    at file:///D:/projects/portfolio-AI/node_modules/@vitest/runner/dist/index.js:60:26\n' +
+    '    at runTest (file:///D:/projects/portfolio-AI/node_modules/@vitest/runner/dist/index.js:781:17)\n' +
+    '    at runSuite (file:///D:/projects/portfolio-AI/node_modules/@vitest/runner/dist/index.js:909:15)',
+  nameStr: 'AggregateError',
+  expected: 'undefined',
+  actual: 'undefined',
+  message: '',
+  constructor: 'Function<AggregateError>',
+  name: 'AggregateError',
+  toString: 'Function<toString>',
+  stacks: [
+    {
+      method: 'aggregateErrors',
+      file: 'D:/projects/portfolio-AI/node_modules/react/cjs/react.development.js',
+      line: 551,
+      column: 11
+    },
+    {
+      method: 'process.env.NODE_ENV.exports.act',
+      file: 'D:/projects/portfolio-AI/node_modules/react/cjs/react.development.js',
+      line: 897,
+      column: 24
+    },
+    {
+      method: '',
+      file: 'D:/projects/portfolio-AI/node_modules/@testing-library/react/dist/act-compat.js',
+      line: 47,
+      column: 25
+    },
+    {
+      method: 'renderRoot',
+      file: 'D:/projects/portfolio-AI/node_modules/@testing-library/react/dist/pure.js',
+      line: 190,
+      column: 26
+    },
+    {
+      method: 'Proxy.render',
+      file: 'D:/projects/portfolio-AI/node_modules/@testing-library/react/dist/pure.js',
+      line: 292,
+      column: 10
+    },
+    {
+      method: '',
+      file: 'D:/projects/portfolio-AI/tests/App.test.tsx',
+      line: 5,
+      column: 3
+    }
+  ]
+}
+[90m [2m❯[22m aggregateErrors node_modules/react/cjs/react.development.js:[2m551:11[22m[39m
+[90m [2m❯[22m process.env.NODE_ENV.exports.act node_modules/react/cjs/react.development.js:[2m897:24[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/react/dist/act-compat.js:[2m47:25[22m[39m
+[90m [2m❯[22m renderRoot node_modules/@testing-library/react/dist/pure.js:[2m190:26[22m[39m
+[90m [2m❯[22m Proxy.render node_modules/@testing-library/react/dist/pure.js:[2m292:10[22m[39m
+[36m [2m❯[22m tests/App.test.tsx:[2m5:3[22m[39m
+    [90m  3| [39m
+    [90m  4| [39m[34mtest[39m([32m'renders hero heading'[39m[33m,[39m () [33m=>[39m {
+    [90m  5| [39m  [34mrender[39m([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m   | [39m  [31m^[39m
+    [90m  6| [39m  [34mexpect[39m(screen[33m.[39m[34mgetByText[39m([36m/interfaces that move/i[39m))[33m.[39m[34mtoBeInTheDocument[39m(…
+    [90m  7| [39m})[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22m[39m
+[31m[1mSerialized Error:[22m[39m [90m{ errors: [ { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' }, { stack: 'ReferenceError: IntersectionObserver is not defined\n    at initIntersectionObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:35:34)\n    at observeIntersection (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs:40:39)\n    at InViewFeature.startObserver (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:52:16)\n    at InViewFeature.mount (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs:55:14)\n    at HTMLVisualElement.updateFeatures (file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/render/VisualElement.mjs:262:29)\n    at file:///D:/projects/portfolio-AI/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs:70:23\n    at Object.react_stack_bottom_frame (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:25989:20)\n    at runWithFiberInDEV (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:874:13)\n    at commitHookEffectListMount (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13249:29)\n    at commitHookLayoutEffects (D:\projects\portfolio-AI\node_modules\react-dom\cjs\react-dom-client.development.js:13213:11)', message: 'IntersectionObserver is not defined', constructor: 'Function<ReferenceError>', name: 'ReferenceError', toString: 'Function<toString>' } ] }[39m
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯[22m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m   Start at [22m 17:15:58
+[2m   Duration [22m 1.98s[2m (transform 160ms, setup 122ms, collect 512ms, tests 169ms, environment 754ms, prepare 136ms)[22m
+

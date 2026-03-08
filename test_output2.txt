@@ -1,0 +1,36 @@
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mD:/projects/portfolio-AI[39m
+
+ [33m❯[39m tests/App.test.tsx [2m ([22m[2m1 test[22m [2m|[22m [31m1 failed[39m[2m)[22m[90m 251[2mms[22m[39m
+[31m   [33m❯[31m tests/App.test.tsx[2m > [22mrenders hero heading[39m
+[31m     → window.matchMedia is not a function[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[1m[7m Failed Tests 1 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m tests/App.test.tsx[2m > [22mrenders hero heading
+[31m[1mTypeError[22m: window.matchMedia is not a function[39m
+[36m [2m❯[22m CursorTrail src/components/CursorTrail.tsx:[2m45:14[22m[39m
+    [90m 43| [39m    [35mreturn[39m [35mnull[39m[33m;[39m
+    [90m 44| [39m  }
+    [90m 45| [39m  [35mif[39m (window[33m.[39m[34mmatchMedia[39m([32m'(pointer: coarse)'[39m)[33m.[39mmatches) {
+    [90m   | [39m             [31m^[39m
+    [90m 46| [39m    [35mreturn[39m [35mnull[39m[33m;[39m
+    [90m 47| [39m  }
+[90m [2m❯[22m Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:[2m25904:20[22m[39m
+[90m [2m❯[22m renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:[2m7662:22[22m[39m
+[90m [2m❯[22m updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:[2m10166:19[22m[39m
+[90m [2m❯[22m beginWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m11778:18[22m[39m
+[90m [2m❯[22m runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:[2m874:13[22m[39m
+[90m [2m❯[22m performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:[2m17641:22[22m[39m
+[90m [2m❯[22m workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17469:41[22m[39m
+[90m [2m❯[22m renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:[2m17450:11[22m[39m
+[90m [2m❯[22m performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:[2m16583:35[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯[22m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m   Start at [22m 16:48:33
+[2m   Duration [22m 2.74s[2m (transform 278ms, setup 221ms, collect 764ms, tests 251ms, environment 982ms, prepare 150ms)[22m
+

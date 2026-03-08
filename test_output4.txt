@@ -1,0 +1,321 @@
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mD:/projects/portfolio-AI[39m
+
+ [33m❯[39m tests/App.test.tsx [2m ([22m[2m1 test[22m [2m|[22m [31m1 failed[39m[2m)[22m[33m 341[2mms[22m[39m
+[31m   [33m❯[31m tests/App.test.tsx[2m > [22mrenders hero heading[39m
+[31m     → Unable to find an element with the text: /interfaces that move/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[31m
+  [36m<div>[31m
+    [36m<div[31m
+      [33mclass[31m=[32m"min-h-screen"[31m
+    [36m>[31m
+      [36m<header[31m
+        [33mclass[31m=[32m"sticky top-0 z-40 backdrop-blur-sm bg-white/50 dark:bg-slate-900/50 border-b border-slate-200/80 dark:border-slate-800"[31m
+        [33mstyle[31m=[32m"opacity: 0; transform: translateY(-100px);"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"container mx-auto px-6 lg:px-20 py-4 flex items-center justify-between"[31m
+        [36m>[31m
+          [36m<a[31m
+            [33mclass[31m=[32m"font-bold text-lg text-slate-900 dark:text-white"[31m
+            [33mhref[31m=[32m"#"[31m
+          [36m>[31m
+            [0mGiddaluru Lokesh kumar[0m
+          [36m</a>[31m
+          [36m<nav[31m
+            [33mclass[31m=[32m"hidden md:flex items-center gap-6"[31m
+          [36m>[31m
+            [36m<a[31m
+              [33mclass[31m=[32m"text-sm text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"[31m
+              [33mhref[31m=[32m"#projects"[31m
+            [36m>[31m
+              [0mProjects[0m
+            [36m</a>[31m
+            [36m<a[31m
+              [33mclass[31m=[32m"text-sm font-medium px-4 cursor-pointer py-2 rounded-lg bg-slate-800 text-white hover:bg-slate-700 dark:bg-slate-200 dark:text-slate-900 dark:hover:bg-slate-100 transition-colors"[31m
+            [36m>[31m
+              [0mGet in Touch[0m
+            [36m</a>[31m
+          [36m</nav>[31m
+          [36m<button[31m
+            [33maria-label[31m=[32m"Open menu"[31m
+            [33mclass[31m=[32m"md:hidden z-50 flex flex-col gap-1.5"[31m
+          [36m>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"h-0.5 w-6 bg-slate-900 dark:bg-white transition-colors"[31m
+            [36m/>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"h-0.5 w-6 bg-slate-900 dark:bg-white transition-colors"[31m
+            [36m/>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"h-0.5 w-6 bg-slate-900 dark:bg-white transition-colors"[31m
+            [36m/>[31m
+          [36m</button>[31m
+        [36m</div>[31m
+      [36m</header>[31m
+      [36m<main>[31m
+        [36m<section[31m
+          [33mclass[31m=[32m"relative overflow-hidden py-20 min-h-screen flex items-center"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"absolute inset-0 pointer-events-none -z-10 opacity-70"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33mclass[31m=[32m"w-full h-full"[31m
+              [33mpreserveAspectRatio[31m=[32m"xMidYMid slice"[31m
+              [33mviewBox[31m=[32m"0 0 800 600"[31m
+            [36m>[31m
+              [36m<defs>[31m
+                [36m<lineargradient[31m
+                  [33mid[31m=[32m"g1"[31m
+                  [33mx1[31m=[32m"0"[31m
+                  [33mx2[31m=[32m"1"[31m
+                [36m>[31m
+                  [36m<stop[31m
+                    [33moffset[31m=[32m"0"[31m
+                    [33mstop-color[31m=[32m"#7c3aed"[31m
+                    [33mstop-opacity[31m=[32m"0.8"[31m
+                  [36m/>[31m
+                  [36m<stop[31m
+                    [33moffset[31m=[32m"1"[31m
+                    [33mstop-color[31m=[32m"#06b6d4"[31m
+                    [33mstop-opacity[31m=[32m"0.8"[31m
+                  [36m/>[31m
+                [36m</lineargradient>[31m
+                [36m<filter[31m
+                  [33mid[31m=[32m"f1"[31m
+                [36m>[31m
+                  [36m<fegaussianblur[31m
+                    [33mstdDeviation[31m=[32m"25"[31m
+                  [36m/>[31m
+                [36m</filter>[31m
+              [36m</defs>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M300,300 C320,180 480,180 520,300 C560,420 340,420 300,300 Z"[31m
+                [33mfill[31m=[32m"url(#g1)"[31m
+                [33mfilter[31m=[32m"url(#f1)"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M100,100 C120,50 180,50 220,100 C260,150 140,150 100,100 Z"[31m
+                [33mfill[31m=[32m"url(#g1)"[31m
+                [33mfilter[31m=[32m"url(#f1)"[31m
+                [33mstyle[31m=[32m"opacity: 0.8; transform-origin: 150px 100px;"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"container mx-auto px-6 lg:px-20 relative z-10"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"grid lg:grid-cols-2 gap-12 items-center"[31m
+            [36m>[31m
+              [36m<div[31m
+                [33mstyle[31m=[32m"opacity: 0;"[31m
+              [36m>[31m
+                [36m<h1[31m
+                  [33mclass[31m=[32m"text-3xl md:text-5xl font-extrabold leading-tight text-slate-900 dark:text-white"[31m
+                  [33mstyle[31m=[32m"opacity: 0; transform: translateY(20px);"[31m
+                [36m>[31m
+                  [0mCrafting[0m
+                  [0m [0m
+                  [36m<span[31m
+                    [33mclass[31m=[32m"bg-clip-text text-transparent bg-gradient-to-r from-[#8B5CF6] to-[#06B6D4]"[31m
+                  [36m>[31m
+                    [0mimpactful digital experiences with code, creativity, and purpose.[0m
+                  [36m</span>[31m
+                [36m</h1>[31m
+                [36m<p[31m
+                  [33mclass[31m=[32m"mt-6 max-w-xl text-lg text-slate-600 dark:text-slate-300"[31m
+                  [33mstyle[31m=[32m"opacity: 0; transform: translateY(20px);"[31m
+                [36m>[31m
+                  [0mI build. I learn. I innovate.[0m
+                [36m</p>[31m
+                [36m<div[31m
+                  [33mclass[31m=[32m"mt-8 flex gap-4"[31m
+                  [33mstyle[31m=[32m"opacity: 0; transform: translateY(20px);"[31m
+                [36m>[31m
+                  [36m<button[31m
+                    [33mclass[31m=[32m"px-6 py-3 rounded-lg bg-[#7C3AED] text-white font-semibold shadow-lg shadow-purple-500/30 hover:shadow-xl transition-all"[31m
+                    [33mtabindex[31m=[32m"0"[31m
+                  [36m>[31m
+                    [0mSee projects[0m
+                  [36m</button>[31m
+                  [36m<a[31m
+                    [33mclass[31m=[32m"px-6 py-3 rounded-lg border border-slate-700 dark:border-slate-300 font-semibold text-slate-700 dark:text-slate-300 hover:bg-slate-700 hover:text-white dark:hover:bg-slate-300 dark:hover:text-slate-900 transition-colors"[31m
+                    [33mtabindex[31m=[32m"0"[31m
+                  [36m>[31m
+                    [0mContact[0m
+                  [36m</a>[31m
+                ...[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[1m[7m Failed Tests 1 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m tests/App.test.tsx[2m > [22mrenders hero heading
+[31m[1mTestingLibraryElementError[22m[39m: Unable to find an element with the text: /interfaces that move/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen"[39m
+    [36m>[39m
+      [36m<header[39m
+        [33mclass[39m=[32m"sticky top-0 z-40 backdrop-blur-sm bg-white/50 dark:bg-slate-900/50 border-b border-slate-200/80 dark:border-slate-800"[39m
+        [33mstyle[39m=[32m"opacity: 0; transform: translateY(-100px);"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"container mx-auto px-6 lg:px-20 py-4 flex items-center justify-between"[39m
+        [36m>[39m
+          [36m<a[39m
+            [33mclass[39m=[32m"font-bold text-lg text-slate-900 dark:text-white"[39m
+            [33mhref[39m=[32m"#"[39m
+          [36m>[39m
+            [0mGiddaluru Lokesh kumar[0m
+          [36m</a>[39m
+          [36m<nav[39m
+            [33mclass[39m=[32m"hidden md:flex items-center gap-6"[39m
+          [36m>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m"text-sm text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"[39m
+              [33mhref[39m=[32m"#projects"[39m
+            [36m>[39m
+              [0mProjects[0m
+            [36m</a>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m"text-sm font-medium px-4 cursor-pointer py-2 rounded-lg bg-slate-800 text-white hover:bg-slate-700 dark:bg-slate-200 dark:text-slate-900 dark:hover:bg-slate-100 transition-colors"[39m
+            [36m>[39m
+              [0mGet in Touch[0m
+            [36m</a>[39m
+          [36m</nav>[39m
+          [36m<button[39m
+            [33maria-label[39m=[32m"Open menu"[39m
+            [33mclass[39m=[32m"md:hidden z-50 flex flex-col gap-1.5"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"h-0.5 w-6 bg-slate-900 dark:bg-white transition-colors"[39m
+            [36m/>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"h-0.5 w-6 bg-slate-900 dark:bg-white transition-colors"[39m
+            [36m/>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"h-0.5 w-6 bg-slate-900 dark:bg-white transition-colors"[39m
+            [36m/>[39m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</header>[39m
+      [36m<main>[39m
+        [36m<section[39m
+          [33mclass[39m=[32m"relative overflow-hidden py-20 min-h-screen flex items-center"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"absolute inset-0 pointer-events-none -z-10 opacity-70"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"w-full h-full"[39m
+              [33mpreserveAspectRatio[39m=[32m"xMidYMid slice"[39m
+              [33mviewBox[39m=[32m"0 0 800 600"[39m
+            [36m>[39m
+              [36m<defs>[39m
+                [36m<lineargradient[39m
+                  [33mid[39m=[32m"g1"[39m
+                  [33mx1[39m=[32m"0"[39m
+                  [33mx2[39m=[32m"1"[39m
+                [36m>[39m
+                  [36m<stop[39m
+                    [33moffset[39m=[32m"0"[39m
+                    [33mstop-color[39m=[32m"#7c3aed"[39m
+                    [33mstop-opacity[39m=[32m"0.8"[39m
+                  [36m/>[39m
+                  [36m<stop[39m
+                    [33moffset[39m=[32m"1"[39m
+                    [33mstop-color[39m=[32m"#06b6d4"[39m
+                    [33mstop-opacity[39m=[32m"0.8"[39m
+                  [36m/>[39m
+                [36m</lineargradient>[39m
+                [36m<filter[39m
+                  [33mid[39m=[32m"f1"[39m
+                [36m>[39m
+                  [36m<fegaussianblur[39m
+                    [33mstdDeviation[39m=[32m"25"[39m
+                  [36m/>[39m
+                [36m</filter>[39m
+              [36m</defs>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M300,300 C320,180 480,180 520,300 C560,420 340,420 300,300 Z"[39m
+                [33mfill[39m=[32m"url(#g1)"[39m
+                [33mfilter[39m=[32m"url(#f1)"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M100,100 C120,50 180,50 220,100 C260,150 140,150 100,100 Z"[39m
+                [33mfill[39m=[32m"url(#g1)"[39m
+                [33mfilter[39m=[32m"url(#f1)"[39m
+                [33mstyle[39m=[32m"opacity: 0.8; transform-origin: 150px 100px;"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"container mx-auto px-6 lg:px-20 relative z-10"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"grid lg:grid-cols-2 gap-12 items-center"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mstyle[39m=[32m"opacity: 0;"[39m
+              [36m>[39m
+                [36m<h1[39m
+                  [33mclass[39m=[32m"text-3xl md:text-5xl font-extrabold leading-tight text-slate-900 dark:text-white"[39m
+                  [33mstyle[39m=[32m"opacity: 0; transform: translateY(20px);"[39m
+                [36m>[39m
+                  [0mCrafting[0m
+                  [0m [0m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"bg-clip-text text-transparent bg-gradient-to-r from-[#8B5CF6] to-[#06B6D4]"[39m
+                  [36m>[39m
+                    [0mimpactful digital experiences with code, creativity, and purpose.[0m
+                  [36m</span>[39m
+                [36m</h1>[39m
+                [36m<p[39m
+                  [33mclass[39m=[32m"mt-6 max-w-xl text-lg text-slate-600 dark:text-slate-300"[39m
+                  [33mstyle[39m=[32m"opacity: 0; transform: translateY(20px);"[39m
+                [36m>[39m
+                  [0mI build. I learn. I innovate.[0m
+                [36m</p>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"mt-8 flex gap-4"[39m
+                  [33mstyle[39m=[32m"opacity: 0; transform: translateY(20px);"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"px-6 py-3 rounded-lg bg-[#7C3AED] text-white font-semibold shadow-lg shadow-purple-500/30 hover:shadow-xl transition-all"[39m
+                    [33mtabindex[39m=[32m"0"[39m
+                  [36m>[39m
+                    [0mSee projects[0m
+                  [36m</button>[39m
+                  [36m<a[39m
+                    [33mclass[39m=[32m"px-6 py-3 rounded-lg border border-slate-700 dark:border-slate-300 font-semibold text-slate-700 dark:text-slate-300 hover:bg-slate-700 hover:text-white dark:hover:bg-slate-300 dark:hover:text-slate-900 transition-colors"[39m
+                    [33mtabindex[39m=[32m"0"[39m
+                  [36m>[39m
+                    [0mContact[0m
+                  [36m</a>[39m
+                ...
+[90m [2m❯[22m Object.getElementError node_modules/@testing-library/dom/dist/config.js:[2m37:19[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m76:38[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m52:17[22m[39m
+[90m [2m❯[22m node_modules/@testing-library/dom/dist/query-helpers.js:[2m95:19[22m[39m
+[36m [2m❯[22m tests/App.test.tsx:[2m6:17[22m[39m
+    [90m  4| [39m[34mtest[39m([32m'renders hero heading'[39m[33m,[39m () [33m=>[39m {
+    [90m  5| [39m  [34mrender[39m([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
+    [90m  6| [39m  [34mexpect[39m(screen[33m.[39m[34mgetByText[39m([36m/interfaces that move/i[39m))[33m.[39m[34mtoBeInTheDocument[39m(…
+    [90m   | [39m                [31m^[39m
+    [90m  7| [39m})[33m;[39m
+    [90m  8| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯[22m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m   Start at [22m 17:16:49
+[2m   Duration [22m 2.69s[2m (transform 226ms, setup 126ms, collect 717ms, tests 341ms, environment 953ms, prepare 193ms)[22m
+

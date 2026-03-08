@@ -3,5 +3,5 @@ import App from '../src/App';
 
 test('renders hero heading', () => {
   render(<App />);
-  expect(screen.getByText(/interfaces that move/i)).toBeInTheDocument();
+  expect(screen.getByText(/impactful digital experiences/i)).toBeInTheDocument();
 });

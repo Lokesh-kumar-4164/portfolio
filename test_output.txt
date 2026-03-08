@@ -1,0 +1,26 @@
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mD:/projects/portfolio-AI[39m
+
+ [33m❯[39m tests/App.test.tsx [2m ([22m[2m0 test[22m[2m)[22m
+
+[31m⎯⎯⎯⎯⎯⎯[1m[7m Failed Suites 1 [27m[22m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[31m[1m[7m FAIL [27m[22m[39m tests/App.test.tsx [2m[ tests/App.test.tsx ][22m
+[31m[1mReferenceError[22m: expect is not defined[39m
+[90m [2m❯[22m node_modules/@testing-library/jest-dom/dist/index.mjs:[2m9:1[22m[39m
+[36m [2m❯[22m tests/App.test.tsx:[2m4:31[22m[39m
+    [90m  2| [39m[35mimport[39m { test[33m,[39m expect } [35mfrom[39m [32m'vitest'[39m[33m;[39m
+    [90m  3| [39m[35mimport[39m [32m'@testing-library/jest-dom'[39m[33m;[39m
+    [90m  4| [39m[35mimport[39m [33mApp[39m [35mfrom[39m [32m'../src/App'[39m[33m;[39m
+    [90m   | [39m                              [31m^[39m
+    [90m  5| [39m
+    [90m  6| [39m[34mtest[39m([32m'renders hero heading'[39m[33m,[39m () [33m=>[39m {
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯[22m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [2mno tests[22m
+[2m   Start at [22m 16:46:50
+[2m   Duration [22m 702ms[2m (transform 41ms, setup 0ms, collect 0ms, tests 0ms, environment 0ms, prepare 149ms)[22m
+
