@@ -17,22 +17,23 @@ export default function App() {
   return (
     <div className="min-h-screen">
       {/* Floating Contact Button */}
-      
 
-      
+
+
 
       <Navbar setContactOpen={setContactOpen} />
       <main>
         <ContactPopup open={contactOpen} onClose={() => setContactOpen(false)} />
-        
+
         <Hero setContactOpen={setContactOpen} />
         <Skills />
         {/* <OrbitalTimeline /> */}
         <ProjectGrid />
-        <Education />
+        <WorkExperience />
         <Achievements />
         <Certifications />
-        <WorkExperience />
+        <Education />
+
       </main>
       <Footer />
       <CursorTrail />
